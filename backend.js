@@ -14,6 +14,7 @@ const fetchAll = async (db, sql, params) => {
   });
 };
 
+
 const server = http.createServer((req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, DELETE");
