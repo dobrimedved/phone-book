@@ -1,0 +1,15 @@
+{
+  "name": "korney",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "backend.js",
+  "scripts": {
+    "dev": "node ./backend.js"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
